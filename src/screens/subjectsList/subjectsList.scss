@@ -1,0 +1,15 @@
+.SubjectsList {
+  display: flex;
+  flex: 1;
+  align-items: "center";
+  justify-content: "center";
+  flex-wrap: wrap;
+  padding: 100px;
+}
+.img {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 5px;
+  width: 300;
+  margin: 20px;
+}

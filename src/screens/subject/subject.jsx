@@ -1,9 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import Tab from "../../components/tab/tab";
-import Videos from "../../components/videos/videos";
-import Articles from "../../components/articles/articles";
-
+import { Videos, Articles, Quiz } from "../../components";
 import "./subject.scss";
 
 function SubjectScreen() {
@@ -15,7 +13,7 @@ function SubjectScreen() {
       <Tab>
         <Videos title="Videos" />
         <Articles title="Articles" />
-        {/* <Quiz title="Quiz" /> */}
+        <Quiz title="Quiz" />
       </Tab>
     </div>
   );

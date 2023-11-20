@@ -1,6 +1,9 @@
-// .subject {
-
-// }
+.subject {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .subjectTitle {
     display: flex;
     flex: auto;

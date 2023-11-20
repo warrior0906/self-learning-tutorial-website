@@ -4,9 +4,9 @@ import "./articles.scss";
 function Articles() {
 
   return (
-    <div className="articles">
+    <h3 className="articles">
       Your Articles will be displayed here
-    </div>
+    </h3>
   );
 }
 

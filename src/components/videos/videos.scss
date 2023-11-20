@@ -4,6 +4,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-height: 800px;
+  overflow-y: scroll;
+}
+.video-title {
+  text-align: left;
 }
 .video {
   margin-bottom: 40px;

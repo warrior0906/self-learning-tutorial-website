@@ -7,15 +7,20 @@ function Videos() {
   const videos = subject.data.videos;
 
   return (
-    <div className="videos-container">
-      {videos?.map((e) => (
-        <div key={e?.url} className="video">
-          <video width="750" height="500" controls>
-            <source src={e?.url} type="video/mp4" />
-          </video>
-        </div>
-      ))}
-    </div>
+    <>
+      <h3 className="video-title">
+        {`Here you can learn ${subject.name} from the videos`}
+      </h3>
+      <div className="videos-container">
+        {videos?.map((e) => (
+          <div key={e?.url} className="video">
+            <video width="750" height="500" controls>
+              <source src={e?.url} type="video/mp4" />
+            </video>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
 

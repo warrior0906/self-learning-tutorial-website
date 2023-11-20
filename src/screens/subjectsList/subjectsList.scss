@@ -1,3 +1,5 @@
+@import "../../utils/scss/colors.scss";
+
 .SubjectsList {
   display: flex;
   flex: 1;
@@ -7,7 +9,7 @@
   padding: 100px;
 }
 .img {
-  border: 1px solid #ddd;
+  border: 1px solid $border_primary;
   border-radius: 16px;
   padding: 5px;
   width: 300;

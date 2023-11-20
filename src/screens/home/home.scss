@@ -1,3 +1,5 @@
+@import "../../utils/scss/colors.scss";
+
 .Home {
   position: relative;
 }
@@ -8,7 +10,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 38px;
-  color: navy;
+  color: $text_heading;
 }
 
 .bgImg {
